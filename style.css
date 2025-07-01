@@ -212,16 +212,17 @@ header .container {
 
 /* --- Hero Section --- */
 #hero {
-  /* Placeholder Image - Replace with your actual image */
-  background: url('https://via.placeholder.com/1920x1080/E0E0E0/AAAAAA?text=Beautiful+Repair+Shop+Background') no-repeat center center/cover;
+  position: relative;
+  background: url("images/backgroundNew.png") no-repeat center center;
+  background-size: cover;
+  /* Makes it stretch proportionally */
   color: var(--light-color);
   height: 85vh;
-  /* Taller hero */
+  /* Adjust if needed */
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  position: relative;
 }
 
 .hero-overlay {
